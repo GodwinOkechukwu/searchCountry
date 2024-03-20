@@ -19,9 +19,11 @@ function Selectedcountry() {
             alt="flag"
             className="object-contain  "
           />
-          <article className="ml-3 w-full md:flex gap-8 items-center">
+          <article className="ml-3 w-full md:flex gap-8 items-center text-gray-800">
             <div className="space-y-[10px]">
-              <h1 className="font-bold my-2 md:text-4xl">{searched.name}</h1>
+              <h1 className="font-bold my-2 md:text-4xl text-black">
+                {searched.name}
+              </h1>
               <p>
                 <span className="font-bold pr-2">Native Name</span>:
                 {searched.nativeName}

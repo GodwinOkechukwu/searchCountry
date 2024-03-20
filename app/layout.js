@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <SearchedContextProvider>
       <html lang="en">
-        <body className="relative bg-gray-100 dark:bg-gray-800 dark:text-white">
+        <body className="relative bg-gray-100  ">
           <Navbar />
           {children}
         </body>
